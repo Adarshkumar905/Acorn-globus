@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* Global font + smoothing */
+html, body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #f5f5f5;
+  color: #1a1a1a;
+}
+
+/* Remove default margins */
+body {
+  margin: 0;
+}
+
+/* Hide scrollbars but keep scrolling */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
